@@ -1,0 +1,13 @@
+<h2>Shoo Order Summary</h2>
+
+<% @shoos.each do |shoos| %> 
+<b>Style:</b>  <p><%= shoos.style() %></p>
+
+<b>Order Quantity:</b>
+<p><%= shoos.quantity() %></p>
+
+<b>Esteemed Client</b>
+<p><%= shoos.pretty_name() %></p>
+
+ <hr>
+<% end %>

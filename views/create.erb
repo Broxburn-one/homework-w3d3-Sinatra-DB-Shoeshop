@@ -1,0 +1,13 @@
+
+<h2>Shoo Order Confirmation</h2>
+
+<h5>Purchased Items</h5>
+<p>Shoo Style: <%= @shoo.style %></p>
+<p>Quantity Ordered: <%= @shoo.quantity %></p>
+<p>Total Price:  <%= @shoo.total_price %></p>
+<br />
+<h5>Customer</h5>
+<p><%= @shoo.pretty_name()  %></p>
+<h5>Address</h5>
+<p><%= @shoo.address() %></p>
+<p><%= @shoo.city %></p>

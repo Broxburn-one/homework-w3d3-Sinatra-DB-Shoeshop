@@ -1,0 +1,18 @@
+body {
+  background-color: #e3e3e3;
+  font-family: sans-serif;
+}
+
+.wrap {
+  width: 600px;
+  margin: auto
+}
+
+h2 {
+   text-align: center;
+}
+
+label {
+  padding-right: 30px;
+}
+
