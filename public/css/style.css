@@ -1,5 +1,5 @@
 body {
-  background-color: #e3e3e3;
+  background-color: #ffffcc;
   font-family: sans-serif;
 }
 
@@ -13,6 +13,22 @@ h2 {
 }
 
 label {
-  padding-right: 30px;
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+  float: left;
+  margin-right: 25px;
+}​
+
+input {
+  display: inline-block;
+  margin-left: 30px;
 }
+
+.buttonHolder{ 
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 170px;
+ }
+
 
